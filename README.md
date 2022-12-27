@@ -29,11 +29,6 @@
 
 
 
-
-
-
-
-
 # DELIVERABLE 2
 
 ## Summary Statistics on Suspension Coils
@@ -64,3 +59,77 @@
 ![image](https://user-images.githubusercontent.com/112135658/209610453-430adfaf-ea10-48e9-aa95-6b3b614139a4.png)
 
 
+
+
+
+# DELIVERABLE 3
+
+## T-Tests on Suspension Coils
+
+### Overview
+
+#### Applying the knowledge of R, t-tests will be performed to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+
+#### Technical Analysis
+
+#### 1.	In your MechaCarChallenge.RScript, write an RScript using the t.test() function to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
+
+#### 2.	Next, write three more RScripts in your MechaCarChallenge.RScript using the t.test() function and its subset() argument to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch.
+
+#### •	An RScript is written for t-test that compares all manufacturing lots against mean PSI of the population
+
+#### •	An RScript is written for three t-tests that compare each manufacturing lot against mean PSI of the population
+
+#### •	There is a summary of the t-test results across all manufacturing lots and for each lot
+
+#### The next step is to conduct a t-test on the suspension coil data to determine whether there is a statistical difference between the mean of this provided sample dataset and a hypothesized, potential population dataset. Using the presumed population mean of 1500, we find the following:
+
+### RESULTS
+
+####  T.test results across all manufacturing lots
+
+
+#### ![image](https://user-images.githubusercontent.com/112135658/209615137-95a5fed5-1d1f-4726-a094-9b33688af34a.png)
+
+
+#### T.test for Lot 1
+
+#### ![image](https://user-images.githubusercontent.com/112135658/209615265-7ebc97e1-5161-488f-95d2-0571c5fd1bac.png)
+
+
+
+#### T.test for Lot 2
+
+#### ![image](https://user-images.githubusercontent.com/112135658/209615359-96eab1bc-6f2f-4d4c-acfc-b98be5261574.png)
+
+
+
+#### T.test for Lot 3
+
+![image](https://user-images.githubusercontent.com/112135658/209615456-3f1ac6ec-e23e-46cf-93d0-324278ac2eb5.png)
+
+
+
+
+### Summary
+
+#### One Sample t-test
+
+#### From the one sample t-test above, the true mean of the sample was 1498.78. It showed a p-Value of 0.06, higher than the common significance level of 0.05.  There is NOT sufficient evidence to support rejecting the null hypothesis. This implies the mean of all three of these manufacturing lots is statistically comparable or similar to the presumed population mean of 1500.
+
+
+#### Lot 1 t-test
+
+#### Lot 1 generated a true sample mean of 1500. With a p-Value of 1, the null hypothesis cannot be rejected. There is no statistical difference between the observed sample mean and the presumed population mean (1500).
+
+#### Lot 2 t-test
+
+#### Lot 2 is similar to Lot1. True sample mean of 1500.02 and a p-Value of 0.61. The null hypothesis cannot be rejected. Both the sample mean and the population mean of 1500 are statistically similar.
+
+
+
+#### Lot 3 t-test
+
+#### A sample mean of 1496.14 with a p-Value of 0.04. The p-Value is lower than the common significance level of 0.05. The null hypothesis must be rejected implying this sample mean and the presumed population mean are not statistically different.
+
+#### Lot 3 obviously had an abnormal situation in the manufacturing/production process that accounted for the results obtained.

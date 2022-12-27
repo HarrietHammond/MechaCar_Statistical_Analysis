@@ -30,6 +30,10 @@
 
 
 
+
+
+
+
 # DELIVERABLE 2
 
 ## Summary Statistics on Suspension Coils
@@ -48,6 +52,9 @@
 
 ![image](https://user-images.githubusercontent.com/112135658/209610375-71a8fc22-b5a4-43b6-b819-9289f7f86140.png)
 
+
+
+## Summary
 
 ### The variance of the coils for the whole production lot population is 62.29 PSI. This does not exceed the 100PSI variance requirement.
 

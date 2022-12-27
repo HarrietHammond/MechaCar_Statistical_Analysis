@@ -18,6 +18,7 @@
 
 #### ![image](https://user-images.githubusercontent.com/112135658/209604058-dc3670c6-4e75-4457-a4d9-d152b289613f.png)
 
+
 ### Summary
 
 #### 1.	Vehicle ground clearance and vehicle length are statistically probable to deliver non-random amounts of variance to the model. Predictably, vehicle ground clearance and vehicle length have a substantial impact on miles per gallon (mpg) on the MechaCar prototype. On the contrary, the All-Wheel Drive (AWD), spoiler angle and vehicle weight have p-Values that suggest a random amount of variance in the dataset.
@@ -25,8 +26,6 @@
 #### 2.	The slope of this linear model is not considered to be zero. This is because, the p-Value of    5.35e -11 is significantly smaller than the assumed significance level of 0.05%. This implies enough evidence to reject our null hypothesis. This further suggests the slope of this linear model is not zero.
 
 #### 3.	Yes, this linear model predicts mpg of the MechaCar prototypes effectively. The linear model obtained an r-squared value of 0.7149, which indicates that nearly 71% of all mpg predictions will be defined by this model.
-
-
 
 
 # DELIVERABLE 2
@@ -84,6 +83,7 @@
 
 #### The next step is to conduct a t-test on the suspension coil data to determine whether there is a statistical difference between the mean of this provided sample dataset and a hypothesized, potential population dataset. Using the presumed population mean of 1500, we find the following:
 
+
 ### RESULTS
 
 ####  T.test results across all manufacturing lots
@@ -133,3 +133,67 @@
 #### A sample mean of 1496.14 with a p-Value of 0.04. The p-Value is lower than the common significance level of 0.05. The null hypothesis must be rejected implying this sample mean and the presumed population mean are not statistically different.
 
 #### Lot 3 obviously had an abnormal situation in the manufacturing/production process that accounted for the results obtained.
+
+
+
+# DELIVERABLE 4
+
+## Study Design: MechaChar vs Competition
+
+### Overview
+
+#### Using R knowledge, a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from manufactures was designed. The statistical design has the following:
+
+•	A metric to be tested
+•	A null hypothesis or an alternative hypothesis
+•	A statistical test to test the hypothesis
+
+
+### Result
+
+#### Metrics
+
+##### The following metrics will be tested: 
+
+•	Safety Feature Rating: Independent Variable
+•	Current Price (Selling): Dependent Variable
+•	Drive Package : Independent Variable
+•	Engine (Electric, Hybrid, Gasoline / Conventional): Independent Variable
+•	Resale Value: Independent Variable
+•	Average Annual Cost of ownership (Maintenance): Independent Variable
+•	MPG (Gasoline Efficiency): Independent Variable
+
+
+
+
+#### Hypothesis: Null and Alternative
+
+##### After determining which factors are key for the MechaCar's genre:
+•	Null Hypothesis: MechaCar is priced correctly based on its performance of key factors for its genre.
+•	Alternative Hypothesis: MechaCar is NOT priced correctly based on performance of key factors for its genre.
+
+
+
+
+
+#### Statistical Tests
+
+#### A multiple linear regression. This can establish the factors that have the highest correlation/predictability with the list selling price (dependent variable);    which combination has the greatest impact on price. 
+
+
+
+
+
+
+
+#### Data needed to run the statistical test will be: 
+
+##### Data on MechaCar and its comparable models across several different manufacturers over the last 3 years. Data will include:
+
+
+•	Comparable models from competitors. 
+
+•	Cars that will be competing with MechaCar head-to-head.
+
+•	Factors that will determine the relevant selling price.
+
